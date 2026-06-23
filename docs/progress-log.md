@@ -7,13 +7,12 @@ models running end-to-end on a small slice to validate the pipeline works
 before running on full data.
 
 **Done:**
-- [ ] ENTSO-E account registered, API access requested (in progress, async)
-- [ ] CSV data exported from Transparency Platform UI for at least 3-6 months
-- [ ] `data_loader.py` successfully combines and cleans CSV exports
-- [ ] `features.py` builds the feature set without errors
-- [ ] All three models (naive, SARIMA, XGBoost) run on a small slice
-- [ ] `eval/run_comparison.py` produces a comparison table
-- [ ] First commit pushed
+- ✅ ENTSO-E account registered, API access requested (in progress, async)
+- ✅ CSV data exported from Transparency Platform UI for at least 3-6 months
+- ✅ `data_loader.py` successfully combines and cleans CSV exports
+- ✅ `features.py` builds the feature set without errors
+- ✅ All three models (naive, SARIMA, XGBoost) run on a small slice
+- ✅ `eval/run_comparison.py` produces a comparison table
 
 **Decisions:**
 - (fill in: how much history did you get, any column-name surprises in the
