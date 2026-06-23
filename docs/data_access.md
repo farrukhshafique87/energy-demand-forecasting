@@ -28,10 +28,3 @@
    ```
 6. Run `python src/data_loader.py --source api --start 2023-01-01 --end 2024-12-31`
 
-## Switching between sources
-
-`src/data_loader.py` normalizes both paths to the same output schema
-(`timestamp`, `load_mw`), so every downstream script (feature engineering,
-modeling, evaluation) works identically regardless of which source was used.
-This is a deliberate design choice — it means starting with the CSV path
-today costs nothing later when the API key arrives.
