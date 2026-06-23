@@ -24,6 +24,4 @@ history, sanity-check results, write up findings.
 - [ ] API key received and `.env` configured
 - [ ] Full historical data pulled (aim for 2+ years)
 - [ ] Comparison re-run on full data
-- [ ] Feature importance inspected — does it make intuitive sense?
-- [ ] Results written up in plain language (for CV/interview talking points)
-
+- [ ] Feature importance inspected
