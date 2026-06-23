@@ -1,6 +1,6 @@
 # Progress Log
 
-## Week 1 — [DATE]
+## Week 1
 
 **Goal:** Get data flowing (CSV path), build feature pipeline, get all three
 models running end-to-end on a small slice to validate the pipeline works
@@ -14,16 +14,8 @@ before running on full data.
 - ✅ All three models (naive, SARIMA, XGBoost) run on a small slice
 - ✅ `eval/run_comparison.py` produces a comparison table
 
-**Decisions:**
-- (fill in: how much history did you get, any column-name surprises in the
-  CSV export, any model fitting issues)
 
-**Blockers / open questions:**
-- (fill in)
-
----
-
-## Week 2 — [DATE]
+## Week 2
 
 **Goal:** Switch to live API once key arrives (if it has), run on full
 history, sanity-check results, write up findings.
@@ -35,19 +27,3 @@ history, sanity-check results, write up findings.
 - [ ] Feature importance inspected — does it make intuitive sense?
 - [ ] Results written up in plain language (for CV/interview talking points)
 
----
-
-## Template for future weeks
-
-```
-## Week N — [DATE]
-
-**Goal:**
-
-**Done:**
-- [ ]
-
-**Decisions:**
-
-**Blockers / open questions:**
-```
