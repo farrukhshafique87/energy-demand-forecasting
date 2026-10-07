@@ -57,7 +57,7 @@ Two ingestion paths are supported (see `src/data_loader.py`):
 
 ## Project status
 
-🚧 In progress — see [docs/progress-log.md](docs/progress-log.md)
+In progress — see [docs/progress-log.md](docs/progress-log.md)
 
 ## Disclaimer
 
